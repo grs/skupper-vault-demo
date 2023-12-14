@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: one
+  labels:
+    skupper.io/network: foo
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: two
+  labels:
+    skupper.io/network: bar
+---
